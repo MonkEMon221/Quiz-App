@@ -1,7 +1,26 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #546E7A;
+  height: 100vh;
+  color: white;
 }
 
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.span{
+  font-size: 80px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
