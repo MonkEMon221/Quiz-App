@@ -7,48 +7,48 @@ function Blocks() {
   const [score, setScore] = useState(0);
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "How many strings does a full-sized concert pedal harp have?",
       options: [
-        { id: 0, text: "New York City", isCorrect: false },
-        { id: 1, text: "Boston", isCorrect: false },
-        { id: 2, text: "Santa Fe", isCorrect: false },
-        { id: 3, text: "Washington DC", isCorrect: true },
+        { id: 0, text: "127 strings", isCorrect: false },
+        { id: 1, text: "57 strings", isCorrect: false },
+        { id: 2, text: "97 strings", isCorrect: false },
+        { id: 3, text: "47 strings", isCorrect: true },
       ],
     },
     {
-      text: "What year was the Constitution of America written?",
+      text: "The notes also depends upon",
       options: [
-        { id: 0, text: "1787", isCorrect: true },
-        { id: 1, text: "1776", isCorrect: false },
-        { id: 2, text: "1774", isCorrect: false },
-        { id: 3, text: "1826", isCorrect: false },
+        { id: 0, text: "Diameter of drum", isCorrect: true },
+        { id: 1, text: "Thickness of String", isCorrect: false },
+        { id: 2, text: "Tension of string", isCorrect: false },
+        { id: 3, text: "Wind holes", isCorrect: false },
       ],
     },
     {
-      text: "Who was the second president of the US?",
+      text: "On a six-string guitar with standard tuning, what note sounded by the top and bottom strings when played open?",
       options: [
-        { id: 0, text: "John Adams", isCorrect: true },
-        { id: 1, text: "Paul Revere", isCorrect: false },
-        { id: 2, text: "Thomas Jefferson", isCorrect: false },
-        { id: 3, text: "Benjamin Franklin", isCorrect: false },
+        { id: 0, text: "E", isCorrect: true },
+        { id: 1, text: "C", isCorrect: false },
+        { id: 2, text: "D", isCorrect: false },
+        { id: 3, text: "F", isCorrect: false },
       ],
     },
     {
-      text: "What is the largest state in the US?",
+      text: "The caliber of instrument depends upon",
       options: [
-        { id: 0, text: "California", isCorrect: false },
-        { id: 1, text: "Alaska", isCorrect: true },
-        { id: 2, text: "Texas", isCorrect: false },
-        { id: 3, text: "Montana", isCorrect: false },
+        { id: 0, text: "Depth of drum", isCorrect: true },
+        { id: 1, text: "String length", isCorrect: false },
+        { id: 2, text: "Length of wind holes", isCorrect: false },
+        { id: 3, text: "Radius of wind holes", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following countries DO NOT border the US?",
+      text: "The electric guitar is a:",
       options: [
-        { id: 0, text: "Canada", isCorrect: false },
-        { id: 1, text: "Russia", isCorrect: true },
-        { id: 2, text: "Cuba", isCorrect: true },
-        { id: 3, text: "Mexico", isCorrect: false },
+        { id: 0, text: "Brass Instrument", isCorrect: false },
+        { id: 1, text: "Percussion Instrument", isCorrect: false },
+        { id: 2, text: "Electric Instrument", isCorrect: true },
+        { id: 3, text: "Woodwind Instrument", isCorrect: false },
       ],
     },
   ];
